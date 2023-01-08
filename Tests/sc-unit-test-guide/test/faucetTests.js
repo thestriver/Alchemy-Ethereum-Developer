@@ -45,7 +45,7 @@ describe('Faucet', function () {
 
     expect(await provider.getCode(faucet.address)).to.equal("0x");
   });
-
+  
   // it("should return funds to the owner successfully when selfdestruct is called", async function () {
   //   const { faucet, owner } = await loadFixture(deployContractAndSetVariables);
   //   let provider = ethers.getDefaultProvider();
@@ -72,6 +72,9 @@ describe('Faucet', function () {
   //   expect(balanceContractBefore.add(balanceBefore).toString()).to.equal(
   //     balanceAfter.add(gasCost).toString()
   //   );
+
+        // const ownerBalance = await ethers.provider.getBalance(owner);
+        // expect(ownerBalance).to.be.greaterThan(0);
   // });
 
 
