@@ -14,3 +14,4 @@ are used predominantly in Ethereum in order to keep track of various states by s
 ### Further reads
 
 - EVPM OPCODES : https://github.com/crytic/evm-opcodes
+- [Smart Contracts: Building Blocks for Digital Markets (Nick Szabo)](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html)
