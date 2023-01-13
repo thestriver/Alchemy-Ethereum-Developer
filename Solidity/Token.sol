@@ -9,8 +9,10 @@ contract Token {
 	uint256 public totalSupply;
 
 	mapping(address => uint) balances;
+	mapping (address => mapping (address => uint256)) allowed;
 
 	event Transfer(address indexed from, address indexed to, uint value);
+	event Approval(address indexed owner, address indexed spender, uint value);
 
 	constructor(){
 		totalSupply = 1000 * (10 ** 18);
@@ -28,4 +30,11 @@ contract Token {
 		emit Transfer(msg.sender, recipient, amount);
 		return true;
 	}
+
+	function approve(address spender, uint256 value) public returns (bool success) {
+        allowed[msg.sender][spender] = value;
+        emit Approval(msg.sender, spender, value);
+        return true;
+    }
+	
 }
