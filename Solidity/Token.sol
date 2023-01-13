@@ -36,5 +36,13 @@ contract Token {
         emit Approval(msg.sender, spender, value);
         return true;
     }
+
+	function transferFrom(address from, address to, uint256 value) public returns (bool success) {
+        balances[to] += value;
+        balances[from] -= value;
+        allowed[from][msg.sender] -= value;
+        emit Transfer(from, to, value);
+        return true;
+    }
 	
 }
