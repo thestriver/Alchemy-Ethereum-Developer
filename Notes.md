@@ -18,3 +18,4 @@ are used predominantly in Ethereum in order to keep track of various states by s
 - https://hardhat.org/tutorial/testing-contracts
 - Storage layout (Storage Slots): https://docs.alchemy.com/docs/smart-contract-storage-layout
 - Indepth research on Proxy Delegate: https://proxies.yacademy.dev/
+- EIP-1967: Proxy Storage Slots: https://eips.ethereum.org/EIPS/eip-1967
