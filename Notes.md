@@ -17,3 +17,4 @@ are used predominantly in Ethereum in order to keep track of various states by s
 - [Smart Contracts: Building Blocks for Digital Markets (Nick Szabo)](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html)
 - https://hardhat.org/tutorial/testing-contracts
 - Storage layout (Storage Slots): https://docs.alchemy.com/docs/smart-contract-storage-layout
+- Indepth research on Proxy Delegate: https://proxies.yacademy.dev/
