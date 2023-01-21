@@ -1,0 +1,91 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x93df07075736CB5f49f8f2FD4f7364253d4d5361",
+    "txHash": "0x3d819c9d4b753ddfa64e16903358f8df3a49983589405dfb1655bd876ba827cd"
+  },
+  "proxies": [
+    {
+      "address": "0xa996a46436727a71BF6392AB36C86C0A40E12262",
+      "txHash": "0x718d70048458169beab7dc9a8c60525e86d0f5f034ff39455f316476c10121d5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb3dE43218B24A6B5Adb45D4C85a959d61747625A",
+      "txHash": "0xc1468bf27d64cc6f682946c65c8a4c6d2925b939490091ccce5746cf39c7e101",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc18fD7dd96Bd8b9dfd62f39058571F9E090bf801",
+      "txHash": "0xa97cd6afb6a4e1973de005b7e1e9624a5ae27232c6eac52fb04eae3785f88e91",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x062C77867123Cc4d2a09f6f29B72009ceaC8ac00",
+      "txHash": "0xa17a7fafdadb862694950fac0dccb8487585a67fe126736dd8e288af32c5a29c",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "041666f7011c9b5a8bf6080dc0792fc660df15767181dcdce8b38677929c9b6e": {
+      "address": "0xD57Cd47Fe2E50ACbB297C22F7B0fcE5ac720a9fC",
+      "txHash": "0xcc66a16e922e18942d20988f188043f3d49667975b144c588e01d532105d9ae5",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "numSodas",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "VendingMachineV1",
+            "src": "contracts/VendingMachineV1.sol:10"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "VendingMachineV1",
+            "src": "contracts/VendingMachineV1.sol:11"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
